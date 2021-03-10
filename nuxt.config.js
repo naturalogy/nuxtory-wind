@@ -12,7 +12,7 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.15.2/css/all.css' },
+      { rel: 'stylesheet', href: 'https://kit-free.fontawesome.com/releases/latest/css/free.min.css' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
@@ -38,8 +38,16 @@ export default {
 
   pwa: {
     manifest: {
-      lang: 'en'
-    }
+      name: process.env.npm_package_name || '',
+      lang: 'ja',
+      short_name: process.env.npm_package_name || '',
+      title: process.env.npm_package_name || '',
+      'og:title': process.env.npm_package_name || '',
+      description: process.env.npm_package_description || '',
+      'og:description': process.env.npm_package_description || '',
+      theme_color: '#f5df4d',
+      background_color: '#fff'
+    },
   },
 
   build: {
