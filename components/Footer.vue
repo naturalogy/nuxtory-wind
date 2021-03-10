@@ -1,9 +1,17 @@
 <template>
-  <footer>Footer</footer>
+  <footer>
+    Footer
+    <FloatBtn />
+  </footer>
 </template>
 
 <script>
-export default {}
+import FloatBtn from '~/components/FloatBtn.vue'
+export default {
+  components: {
+    FloatBtn,
+  },
+}
 </script>
 
 <style lang="scss" scoped>
