@@ -12438,7 +12438,7 @@ symbol.prototype.description@^1.0.0:
     has-symbols "^1.0.1"
     object.getownpropertydescriptors "^2.1.2"
 
-tailwind-config-viewer@^1.4.0, tailwind-config-viewer@^1.5.0:
+tailwind-config-viewer@^1.4.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/tailwind-config-viewer/-/tailwind-config-viewer-1.5.0.tgz#b0a345a70f4282f305bf012fdb2d54e48a4e885f"
   integrity sha512-yiQjFh/Hv9MgCmqJgIzCp74TDfwhBSS3no3vwEa094DGSk1eoaAKbzJskFFma91a0IxI8oVFOPZ+HCPiSZR16A==
