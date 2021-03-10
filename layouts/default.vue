@@ -60,6 +60,9 @@ section {
 
 .btn {
   @apply py-3 px-6;
+  &-primary {
+    @apply bg-blue-500 hover:bg-blue-600 text-white border-blue-600 transition-colors;
+  }
   &-secondary {
     @apply bg-gray-500 hover:bg-gray-600 text-white border-gray-600 transition-colors;
   }
