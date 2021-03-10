@@ -17,6 +17,11 @@ export default {
     Header,
     Footer,
   },
+  head: {
+    htmlAttrs: {
+      lang: 'en',
+    },
+  },
 }
 </script>
 
