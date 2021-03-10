@@ -1,6 +1,6 @@
 {
   "name": "nuxtory-wind",
-  "description": "A Nuxt.js starter with Tailwind CSS, Tailwind Config Viewer, Dart-Sass and Storybook.",
+  "description": "A Nuxt.js starter with Tailwind CSS, Dart-Sass and Storybook.",
   "version": "1.0.0",
   "author": "Shotarrow Sakamoto (naturalogy)",
   "scripts": {
@@ -8,8 +8,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "sb": "nuxt storybook -p 3131",
-    "tw": "tailwind-config-viewer -o -p 3232"
+    "story": "nuxt storybook -p 3131"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.1",
@@ -29,7 +28,6 @@
     "prettier": "^2.2.1",
     "sass": "^1.32.8",
     "sass-loader": "^10.1.1",
-    "tailwind-config-viewer": "^1.5.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   },
   "license": "MIT"
