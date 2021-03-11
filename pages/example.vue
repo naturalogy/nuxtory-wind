@@ -4,7 +4,7 @@
     <p>Blazing-fast routing huh?</p>
     <p>
       <nuxt-link to="/" class="btn btn-secondary">
-        <i class="fas fa-chevron-left mr-2"></i>
+        <i class="fas fa-home mr-2"></i>
         Home
       </nuxt-link>
     </p>

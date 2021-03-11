@@ -1,6 +1,6 @@
 <template>
   <div class="fixed right-3 bottom-3">
-    <button class="btn btn-primary" @click="reset()">
+    <button class="btn btn-primary" @click="reload()">
       <i class="fas fa-sync-alt"></i>
     </button>
   </div>
@@ -9,7 +9,7 @@
 <script>
 export default {
   methods: {
-    reset: () => location.reload(),
+    reload: () => location.reload(),
   },
 }
 </script>
