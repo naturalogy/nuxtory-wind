@@ -36,6 +36,8 @@ export default {
 
   storybook: {},
 
+  tailwindcss: {},
+
   pwa: {
     manifest: {
       name: process.env.npm_package_name || '',
@@ -56,6 +58,14 @@ export default {
         implementation: Sass,
         sassOptions: {
           fiber: Fiber
+        }
+      }
+    },
+    postcss: {
+      plugins: {},
+      preset: {
+        autoprefixer: {
+          grid: true
         }
       }
     }
