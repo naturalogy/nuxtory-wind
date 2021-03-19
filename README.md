@@ -2,6 +2,11 @@
 
 A [Nuxt.js](https://github.com/nuxt/nuxt.js) [PWA](https://github.com/nuxt-community/pwa-module) starter with [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss), [Dart Sass](https://github.com/sass/dart-sass) and [Storybook](https://github.com/storybookjs/storybook/).
 
+## Live Demo
+
+Hosted on Cloudflare Pages:
+[https://nuxtory-wind.pages.dev/](https://nuxtory-wind.pages.dev/)
+
 ## Features
 
 - PWA (Progressive Web Application)
