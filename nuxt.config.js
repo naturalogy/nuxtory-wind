@@ -40,13 +40,13 @@ export default {
 
   pwa: {
     manifest: {
-      name: process.env.npm_package_name || '',
+      name: 'nuxtory-wind',
       lang: 'en',
-      short_name: process.env.npm_package_name || '',
-      title: process.env.npm_package_name || '',
-      'og:title': process.env.npm_package_name || '',
-      description: process.env.npm_package_description || '',
-      'og:description': process.env.npm_package_description || '',
+      short_name: 'nuxtory-wind',
+      title: 'nuxtory-wind',
+      'og:title': 'nuxtory-wind',
+      description: 'A Nuxt.js PWA starter with Tailwind CSS, Dart Sass and Storybook.',
+      'og:description': 'A Nuxt.js PWA starter with Tailwind CSS, Dart Sass and Storybook.',
       theme_color: '#f5df4d',
       background_color: '#fff'
     },
