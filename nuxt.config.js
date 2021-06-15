@@ -48,7 +48,8 @@ export default {
       description: 'A Nuxt.js PWA starter with Tailwind CSS, Dart Sass and Storybook.',
       'og:description': 'A Nuxt.js PWA starter with Tailwind CSS, Dart Sass and Storybook.',
       theme_color: '#f5df4d',
-      background_color: '#fff'
+      background_color: '#fff',
+      display: 'fullscreen'
     },
   },
 
